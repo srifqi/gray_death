@@ -1,0 +1,10 @@
+# This file contains settings of Gray Death that can be changed in
+# minetest.conf.
+
+# The color saturation assigned to a player when they die.
+# Setting it to be the same as gd_saturation_on_respawn disables Gray Death.
+gd_saturation_on_die (Saturation on Die) float 0.0 0.0 1.0
+
+# The color saturation assigned to a player when they respawn.
+# Setting it to be the same as gd_saturation_on_die disables Gray Death.
+gd_saturation_on_respawn (Saturation on Respawn) float 1.0 0.0 1.0
